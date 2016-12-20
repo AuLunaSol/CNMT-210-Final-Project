@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General Body Definition */
+body {
+ 	margin: 0px;
+}
+
+body.main {
+	background-color: #ffffff;
+	min-height: 100%;
+	margin-bottom: -100px;
+    padding: 0px;
+	
+	background-image: url("../img/ggrad.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Page Layout */
+.main #articleContainer {
+	box-sizing: border-box;
+	
+	position: relative;
+	padding: 2.5em;
+	float: left;
+	margin: auto;
+	height: calc(100vh - 178px);
+	width: 80%;
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	color: #000000;	
+	text-align: justify;
+	
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.main #articleContainer div {
+	margin: 25px 0px;
+	padding: 0.5em;
+	background-color: #fefefe;
+	border: 1px dashed #dedede;
+}
+
+.main #sideContainer {
+	box-sizing: border-box;
+	
+	position: relative;
+	padding: 1.5em;
+	float: right;
+	margin: 0 0;
+	height: calc(100vh - 178px);
+	width: 20%;
+	
+	top: 0px;   
+  	bottom: 30px;
+	left: 0px;
+
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0m;
+	color: #000000;	
+}
+
+.main #sideContainer h2 {
+	text-align: right;
+}
+
+.main #sideContainer h4 {
+	text-align: center;
+}
+
+/* General Text */
+.headText {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.35em;
+	text-align: center;
+	color: #000000;
+	height: 0.5em;
+	border: 0 none;
+}
+
+.headText a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	text-align: center;
+	text-decoration: none;
+	color: #ffe0e0;
+	height: 0.5em;
+	border: 0 none;
+}
+
+.main h1 {
+	font-size: 1.5em;
+	color: #ffffff;
+    text-align: center;
+}
+
+.main h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.35em;
+	text-align: left;
+	color: #000000;
+	height: 1.0em;
+	border: 0 none;
+}
+
+.main h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	color: #000000;
+	height: 90%;
+	border: 0 none;
+	font-style: italic;
+}
+
+.main h4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	color: #000000;
+	height: 100%;
+	border: 0 none;
+	font-style: none;
+}
+
+.main h4 a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	height: 1.0em;
+	border: 0 none;
+	font-style: none;
+	text-decoration: none;
+	text-align: right;
+}
+
+.main h4 a:hover {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	color: #b10241;
+	height: 0.9em;
+	border: 0 none;
+	font-style: none;
+	text-decoration: none;
+	text-align: right;
+}
+
+.main h6 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	color: #b10241;
+	height: 1.0em;
+	border: 0 none;
+	font-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+hr {
+	border: none;
+    height: 1px;
+	width: 80%;
+	line-height: 0.5em;
+    color: #dedede;
+    background-color: #dedede;
+}
+
+/* Header and Footer Layout */
+header, footer {
+    padding: 0.25em;
+    background-color: #000000;
+    clear: left;
+}
+
+.headfoot h1 {	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+    text-align: center;
+	text-decoration: none;
+}
+
+.headfoot h1 a {	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+    text-align: center;
+	text-decoration: none;
+}
+
+header {
+	height: 2.15em;
+}
+
+footer {
+	box-sizing: border-box;
+	
+	position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+	
+	background-image: url("../img/wgrad.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Bar Code */
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    text-align: center;
+    padding: 9px 8px;
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+    text-decoration: none;
+	
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition:    background 0.2s ease-in-out;
+    -o-transition:      background 0.2s ease-in-out;
+    transition:         background 0.2s ease-in-out;
+}
+
+.navigation li a:hover {
+    background-color: #b10241;
+    color: #ffffff;
+	padding: 9px 8px;
+	
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition:    background 0.2s ease-in-out;
+    -o-transition:      background 0.2s ease-in-out;
+    transition:         background 0.2s ease-in-out;
+}
+
+.normal {
+    background-color: #000000;
+	color: #ffffff;
+}
+
+.active {
+    background-color: #ffffff;
+	color: #000000;
+}
+
+/* Button Coding */
+.button {
+	border-radius: 4px;
+	background-color: rgb(60,0,80);
+	border: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 0.8em;
+	color: #ffffff;
+	padding: 9px 8px;
+	width: 128px;
+	cursor: pointer;
+	margin: 2px;
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:    all 0.3s ease;
+	-o-transition:      all 0.3s ease;
+	transition:         all 0.3s ease;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	
+	color: #ffffff;
+	padding: 9px 8px;
+  
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:    all 0.3s ease;
+	-o-transition:      all 0.3s ease;
+	transition:         all 0.3s ease;
+}
+
+.button span:after {
+	content: '→';
+	font-size: 1.0em;
+	position: relative;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	
+	color: #ffffff;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:    all 0.3s ease;
+	-o-transition:      all 0.3s ease;
+	transition:         all 0.3s ease;
+}
+
+.button:hover span {
+	padding-right: 8px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
